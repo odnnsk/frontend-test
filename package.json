@@ -1,0 +1,49 @@
+{
+  "name": "webpack-demo-boilerplate",
+  "version": "1.0.0",
+  "description": "Webpack demo boilerplate for web projects. Webpack dev server inside",
+  "main": "source/app.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&& webpack-dev-server --progress --colors --mode development",
+    "build": "set NODE_ENV=production&& webpack --mode production",
+    "dev": "set NODE_ENV=development&& webpack --mode development",
+    "eslint": "eslint ."
+  },
+  "author": "odnnsk",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/runtime": "^7.7.2",
+    "autoprefixer": "^9.7.1",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.5",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.6.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-harddisk-plugin": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-normalize": "^8.0.1",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "terser-webpack-plugin": "^2.2.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "flag-icon-css": "^3.4.5",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15"
+  }
+}

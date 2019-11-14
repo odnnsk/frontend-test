@@ -1,0 +1,52 @@
+@mixin centered($axis: 'both') {
+	position: absolute;
+
+	@if $axis == 'both' {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	@if $axis == 'x' {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	@if $axis == 'y' {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+/*
+* Media queries
+*/
+@mixin desktop{
+	@media (max-width: 1200px){
+		@content;
+	}
+}
+
+@mixin laptop{
+	@media (max-width: 991px){
+		@content;
+	}
+}
+
+@mixin tablet{
+	@media (max-width: 767px){
+		@content;
+	}
+}
+
+@mixin phone{
+	@media (max-width: 480px){
+		@content;
+	}
+}
+
+@mixin xs{
+	@media (max-width: 375px){
+		@content;
+	}
+}

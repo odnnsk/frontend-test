@@ -1,0 +1,23 @@
+.section-hero {
+	height: 100vh;
+	padding: 0 15px;
+	overflow: hidden;
+}
+
+.section-hero__container{
+	@include centered('both')
+}
+
+.section-hero__image {
+	width: 100%;
+	max-width: 500px;
+}
+
+.section-hero__title{
+	margin-top: 30px;
+	font-family: $second-font;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 5px;
+	text-align: center;
+}

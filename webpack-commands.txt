@@ -1,0 +1,2 @@
+npx webpack --display-modules
+npx webpack --json --profile >stats.json // http://webpack.github.io/analyse/

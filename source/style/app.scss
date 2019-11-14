@@ -1,0 +1,18 @@
+$white : #efeee9;
+$beige: #eeebdf;
+$main-font-color : #fff;
+$main-hover-color : #f47d32;
+$main-color : #f47d32;
+$main-font : 'Open Sans', sans-serif;
+$second-font : 'Montserrat', sans-serif;
+$footer-bg-color : #111525;
+
+//mixins
+@import 'helpers/mixins';
+
+//layout setups
+@import 'layout/fonts';
+@import 'layout/setups';
+
+//blocks
+@import 'blocks/section-hero';
