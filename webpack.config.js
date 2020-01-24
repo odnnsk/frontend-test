@@ -26,17 +26,7 @@ const conf = {
         host: 'localhost',
         contentBase: PATHS.build,
         port: 3000,
-        compress: true,
-        // hot: true,
-        // inline: true,
-        // watchContentBase: true,
-        // historyApiFallback: true,
-        // proxy: {
-        //     '/api': {
-        //         target: 'http://localhost:8080',
-        //         pathRewrite: {'^/api' : ''}
-        //     }
-        // }
+        compress: true
     },
     entry: {
         app: `${PATHS.source}/js/app`,
